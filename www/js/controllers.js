@@ -4,8 +4,4 @@ angular.module('starter.controllers', [])
 
 .controller('AddTaskCtrl', function($scope) {})
 
-.controller('AccountCtrl', function($scope) {
-  $scope.settings = {
-    enableFriends: true
-  };
-});
+.controller('AccountCtrl', function($scope) {});

@@ -1,3 +1,3 @@
 angular.module('starter.services', [])
 
-.factory('Chats', function() {});
+.factory('Task', function() {});
