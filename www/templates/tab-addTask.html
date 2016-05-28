@@ -1,17 +1,13 @@
 <ion-view view-title="Add Task">
   <ion-content>
     <label class="item item-input">
-        <span class="input-label">Task Name</span>
-        <input type="text">
+        <span class="input-label">Enter The Task Name
+        <input type="text" placeholder="Enter Task Here">
+      </span>      
     </label>
-     <label class="item item-input">
-        <span class="input-label">What To Do?</span>
-        <input type="text">
-    </label>
-      <div class="button-bar">
-          <a class="button button-large button-calm"> Add </a>
-          <a class="button button-large button-assertive"> Clear </a>
-      </div>
+      <br>
+          <button class="button button-large button-outline button-dark" ng-click="addItem()">Add</button>
+
       
   </ion-content>
 </ion-view>
