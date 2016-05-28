@@ -2,11 +2,11 @@
   <ion-content>
     <label class="item item-input">
         <span class="input-label">Enter The Task Name
-        <input type="text" placeholder="Enter Task Here">
+        <input type="text" ng-model="item.newItem" placeholder="Enter Task Here">
       </span>      
     </label>
-      <br>
-          <button class="button button-large button-outline button-dark" ng-click="addItem()">Add</button>
+      </br>
+          <button class="button button-full button-outline button-dark" ng-click="addItem()">Add</button>
 
       
   </ion-content>

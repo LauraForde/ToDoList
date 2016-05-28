@@ -3,12 +3,12 @@ angular.module('starter.services', [])
 .factory('Task', function() {
     
     var item = {
-        itemToAdd: []
+        newItem: []
     };
     
     function addItem(title){
-        item.itemToAdd.push({title: title});
-    }
+        item.newItem.push({title: title});
+    };
     return{
         item: item,
         addItem: addItem
