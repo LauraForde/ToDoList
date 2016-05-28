@@ -16,6 +16,4 @@ angular.module('starter.controllers', [])
     
     $scope.item = item;
     $scope.addItem = addItem;
-})
-
-.controller('AccountCtrl', function($scope) {});
+});

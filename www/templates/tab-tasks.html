@@ -1,9 +1,16 @@
 <ion-view view-title="Tasks">
   <ion-content>
     <ion-list>
-        <ion-item ng-repeat="task in item.newItem">
+        <!--
+used as refernece for button
+http://ionicframework.com/docs/components/#item-buttons -->
+        <ion-item ng-repeat="task in item.newItem track by $index">
+            <div class="item item-button-right">
             <h3>{{ task.title }}</h3>
+                <button class = "button button-assertive" ng-click ="item.newItem.splice($index,1)">
+                <i class="ion-close-round"></i></button>
         </ion-item>   
+        </div>
     </ion-list>
   </ion-content>
 </ion-view>
